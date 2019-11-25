@@ -2,6 +2,7 @@ pipeline {
 
   environment {
     PROJECT = "mimetic-science-244406"
+    
     APP_NAME = "gceme"
     FE_SVC_NAME = "${APP_NAME}-frontend"
     CLUSTER = "jenkins-cd"
